@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+color:lightblue;
+}
+.nav{
+    display:flex;
+    justify-content:space-between;
+    margin:25px;
+}
+.nav ul{
+    display:flex;
+    list-style-type:none;
+    gap:25px;
+}
+.header{
+    background-image:url("images/hero.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    object-fit:contain;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    
+}
+.header input{
+    height:50px;
+    width:40%;
+}
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:350px;
+    width:100%;
+}
+.second h1{
+    color:lightblue;
+}
+.third{
+    gap:15px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:100%;
+}
+.fourth{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.newbutton{
+    background-color:#009999;
+    padding:8px 15px;
+    color:white;
+    border-radius:2px;
+}
+.btn{
+    padding:8px 15px;
+    border-radius:2px;
+    border:transparent;
+}
+.sixth{
+display:flex;
+justify-content:space-evenly;
+}
+.last{
+    display:flex;
+    justify-content:space-evenly;
+}
+.about h1{
+    color:#009999;
+}
+.ourlinks h1{
+    color:#009999;
+}
+.about{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.ourlinks{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.footer{
+    background-color:#eeeeee;
+    padding:10px;
+}
+.last{
+    padding-top:15px;
+    padding-bottom:5px;
+}
+
